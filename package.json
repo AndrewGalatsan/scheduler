@@ -58,7 +58,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AndrewGalatsan/scheduler.git"
+    "url": "https://github.com/AndrewGalatsan/scheduler"
   },
   "author": "",
   "license": "ISC",
