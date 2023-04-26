@@ -49,6 +49,21 @@ For full functionality both must run concurrently: the client and the API server
 - Navigate to the root directory and install dependencies with `npm install`
 - Once you have the database setup and the scheduler-api server running, run the following command from the root directory of the project `npm start`
 
+## Screenshots
+
+### Full View
+
+!["Full view upon loading"](https://github.com/AndrewGalatsan/scheduler/blob/master/docs/main-view.jpeg?raw=true)
+
+### Editing
+
+!["Editing an Interview"](https://github.com/AndrewGalatsan/scheduler/blob/master/docs/edit.jpeg?raw=true)
+
+### Delete Confirmation
+
+!["Delete Confirmation"](https://github.com/AndrewGalatsan/scheduler/blob/master/docs/delete-confirmation.jpeg?raw=true)
+
+
 ## Project Stack
 
 __Front-End:__ React, Axios, JSX, HTML, SASS, JavaScript
