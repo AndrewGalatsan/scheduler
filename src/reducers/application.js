@@ -23,5 +23,5 @@ export default function reducer(state, action) {
         days: action.days,
         appointments: action.appointments,
         interviewers: action.interviewers
-      };
+      }}}
     
