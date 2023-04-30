@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Button from 'components/Button';
 import InterviewerList from 'components/InterviewerList';
-  // eslint-disable-next-line
+  
 import { action } from '@storybook/addon-actions/dist/preview';
 
 export default function Form(props) {
@@ -11,14 +11,14 @@ export default function Form(props) {
   const [currentInterviewer, setInterviewer] = useState(props.value || null)
   const [error, setError] = useState("");
 
-  //Helper function to clear all fields
+  
   const reset = () => {
     setName("")
     setInterviewer(null)
   }
 
   function cancel () {
-    // props.onCancel;
+    
     reset();
     props.onCancel()
   }
